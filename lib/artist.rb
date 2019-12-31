@@ -10,6 +10,5 @@ class Artist
   end 
   def Artist.all
     @@all
-    @@all
   end 
 end 
