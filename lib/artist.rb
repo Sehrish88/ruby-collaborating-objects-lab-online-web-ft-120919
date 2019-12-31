@@ -8,5 +8,8 @@ class Artist
     @name = name
     @songs = []
   end 
-  
+  def Artist.all
+    @@all.push @name 
+    @@all
+  end 
 end 
